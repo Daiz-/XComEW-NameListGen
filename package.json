@@ -5,13 +5,13 @@
   "description": "Namelist generator for XCOM: Enemy Within",
   "author": "Daiz <taneli.vatanen@gmail.com>",
   "license": "MIT",
-  "bin": {
-    "xcom-namegen": "./bin/index.js"
-  },
   "scripts": {
     "build": "lsc make",
     "start": "lsc index.ls",
-    "prepublish": "lsc make"
+    "preinstall": "lsc make"
+  },
+  "bin": {
+    "xcom-namegen": "./bin/index.js"
   },
   "dependencies": {
     "optimist": "~0.6.0",
