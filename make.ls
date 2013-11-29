@@ -5,5 +5,5 @@ require! {
 
 target.all = ->
   console.log "Compiling LiveScript to JavaScript..."
-  script = lsc.compile cat \index.ls
+  script = lsc.compile (cat \index.ls), {+bare}
   ("#!/usr/bin/env node\n\n" + script).to "index.js"
