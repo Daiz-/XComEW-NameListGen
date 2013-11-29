@@ -38,4 +38,4 @@ name3
 name4
 ```
 
-And so on. One name per line with nothing else. Avoid using quotes (""). These names will be used as last names in the game, with the first names left empty for everyone. If you don't have a lot of names, usage of the `-d/--dupe` option is recommended.
+And so on. One name per line with nothing else. Avoid using quotes (`"`). These names will be used as last names in the game, with the first names left empty for everyone. If you don't have a lot of names, usage of the `-d/--dupe` option is recommended.
