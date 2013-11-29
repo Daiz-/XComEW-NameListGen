@@ -3,12 +3,15 @@ argv = require \optimist
   .options \h do
     alias: \help
     default: false
+    type: \boolean
   .options \o do
     alias: \output
     default: "DefaultNameList.ini"
+    type: \string
   .options \d do
     alias: \dupe
     default: false
+    type: \boolean
   .argv
 
 usage = """
