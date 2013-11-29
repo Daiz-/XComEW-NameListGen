@@ -93,7 +93,7 @@ for n in names
     insert n, next-country!
 
 console.log "Namefile generated and saved to #{argv.output}"
-out.replace /\\n/g '\r\n' .to argv.output
+out.replace /\r\n|\r|\n/g '\r\n' .to argv.output
 
 
 
