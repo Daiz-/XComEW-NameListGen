@@ -39,7 +39,7 @@ names = cat name .replace /\r\n|\r/g '\n' .split '\n'
 
 # List of countries
 countries = <[ Am Rs Ch In Af Mx Ab En Fr Gm Au It Jp Is Es Gr Nw Ir Sk Du Sc Bg Pl ]>
-double = /^(Rs|Pl)$/
+doubled = /^(Rs|Pl)$/
 
 out = "[XComGame.XGCharacterGenerator]\n"
 for c in countries
@@ -73,7 +73,7 @@ next-country = ->
 
 
 insert = !(n, c) ->
-  if double.test c
+  if doubled.test c
     out += """
     m_arr#{c}MLastNames="#{n}"
     m_arr#{c}FLastNames="#{n}"
