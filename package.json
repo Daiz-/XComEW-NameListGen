@@ -6,7 +6,7 @@
   "author": "Daiz <taneli.vatanen@gmail.com>",
   "license": "MIT",
   "bin": {
-    "xcom-namegen": "./index.js"
+    "xcom-namegen": "./bin/index.js"
   },
   "scripts": {
     "build": "lsc make",
