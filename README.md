@@ -1,4 +1,4 @@
-# XCOM: Enemy Within Namelist Generator
+# XCOM:EW Namelist Generator
 
 A small command-line utility for generating a namelist file for XCOM: Enemy Within from a list of (nick)names.
 
