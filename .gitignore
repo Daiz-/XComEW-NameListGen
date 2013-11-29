@@ -1,5 +1,5 @@
 node_modules
 DefaultNameList.ini
 names.txt
-bin/index.js
+bin
 npm-debug.log
