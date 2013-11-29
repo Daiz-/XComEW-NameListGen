@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "optimist": "~0.6.0",
-    "shelljs": "~0.2.6"
+    "shelljs": "~0.2.6",
+    "LiveScript": "~1.2.0"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,5 @@
   "keywords": [
     "xcom",
     "game"
-  ],
+  ]
 }
