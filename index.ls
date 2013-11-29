@@ -12,10 +12,10 @@ argv = require \optimist
   .argv
 
 usage = """
-\n    Usage: xnamegen [options] filename
+\n    Usage: xcom-namegen [options] namefile
 
-  Generate a XCOM: Enemy Within name list file from a list of (nick)names.
-  Input filename defaults to names.txt. Names are spread evenly across all countries
+  Generate a XCOM: Enemy Within namelist file from a list of (nick)names.
+  Namefile defaults to names.txt. Names are spread evenly across all countries
   unless the -d/--dupe option is specified.
 
   Options:
