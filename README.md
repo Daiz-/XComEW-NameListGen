@@ -10,6 +10,7 @@ A small command-line utility for generating a namelist file for XCOM: Enemy With
 ## Usage
 
 ```
+
     Usage: xcom-namegen [options] namefile
 
   Generate a XCOM: Enemy Within namelist file from a list of (nick)names.
@@ -21,6 +22,7 @@ A small command-line utility for generating a namelist file for XCOM: Enemy With
     -h, --help    Show this help.
     -o, --output  Output filename. [DefaultNameList.ini]
     -d, --dupe    Duplicate all names across all countries. [false]
+
 ```
 
 After generating the `DefaultNameList.ini`, you should place it in in `[XCOM:EW Installation folder]\XEW\XComGame\Config\` - make sure to back up the original ´DefaultNameList.ini` first! In case of an emergency, you can find the original [here](https://gist.github.com/Daiz-/8ca3c8848eaab8d0c695).
