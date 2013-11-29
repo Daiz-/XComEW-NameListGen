@@ -6,4 +6,5 @@ require! {
 target.all = ->
   console.log "Compiling LiveScript to JavaScript..."
   if not test \-e \bin then mkdir \bin
-  lsc.compile (cat \index.ls), {+bare} .to "./bin/index.js"
+  script = lsc.compile (cat \index.ls), {+bare}
+  ('#!/usr/bin/env node\n\n' + script) .to "./bin/xcom-namegen"

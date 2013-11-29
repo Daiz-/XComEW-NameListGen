@@ -11,7 +11,7 @@
     "preinstall": "lsc make"
   },
   "bin": {
-    "xcom-namegen": "./bin/index.js"
+    "xcom-namegen": "./bin/xcom-namegen"
   },
   "dependencies": {
     "optimist": "~0.6.0",
