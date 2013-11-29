@@ -1,0 +1,28 @@
+{
+  "name": "xcom-namegen",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "description": "Namelist generator for XCOM: Enemy Within",
+  "author": "Daiz <taneli.vatanen@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "xcom-namegen": "./index.js"
+  },
+  "scripts": {
+    "build": "lsc make",
+    "start": "lsc index.ls",
+    "prepublish": "lsc make"
+  },
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "shelljs": "~0.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daiz-/XComEW-NameListGen.git"
+  },
+  "keywords": [
+    "xcom",
+    "game"
+  ],
+}
